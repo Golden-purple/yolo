@@ -25,7 +25,7 @@ def download_and_load_model(url, name):
     os.makedirs("models", exist_ok=True)
     model_path = f"models/{name}.pt"
     if not os.path.exists(model_path):
-        st.info(f"Downloading {name} model from Google Drive...")
+        #st.info(f"Downloading {name} model from Google Drive...")
         gdown.download(url, model_path, quiet=False)
     return YOLO(model_path)
 
