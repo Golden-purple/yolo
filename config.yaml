@@ -1,0 +1,10 @@
+# PATHS
+path: /home/pranav/Projects/yolo/data
+train: images/train      
+val: images/val        
+test: images/test        
+
+# CLASSES
+nc: 1
+names:
+  0: cow
